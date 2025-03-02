@@ -1,0 +1,148 @@
+body {
+  background-color: #e1e1e1;
+  font-family: "Nunito", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  color: #48484a;
+}
+
+.container {
+  width: 280px;
+  min-height: 270px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.submit {
+   margin: 0rem 1.3rem;
+}
+
+/* .search-container {
+  margin: 1rem 1rem;
+} */
+
+input {
+  margin: 1rem 0;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  font-size: 0.9rem;
+  width: 9.2rem;
+}
+
+button {
+  background-color: #0059b1;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 1.4rem;
+  width: 4.2rem;
+  cursor: pointer;
+  margin-left: 0.8rem;
+  font-size: 0.8rem;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+.weather-details {
+  margin: 0 1.3rem;
+  //line-height: 0.3rem;
+}
+
+.weather-date {
+  color: #0059b1;
+  font-size: 0.8rem;
+}
+
+.weather-location {
+  font-size: 1.3rem;
+  margin-top: 0.4rem;
+  font-weight: bolder;
+  
+}
+
+.icon-temp-container {
+  display: flex;
+  align-items: center;
+  //justify-content: center;
+  font-size: 3.4rem;
+  height: 4rem;
+  margin: 0.7rem -1rem 0rem -1.6rem;
+}
+
+img {
+  height: 200%;
+  width: auto;
+}
+
+.weather-temp {
+  margin-left: -0.4rem;
+}
+
+.weather-description {
+  font-weight: bolder;
+  margin-bottom: 0.4rem;
+  margin-top: 1.1rem;
+}
+
+ .weather-wind-press {
+  font-size: 0.9rem;
+  display: flex;
+}
+
+.weather-wind-press p {
+  margin-right: 1rem;
+}
+
+.weather-hum-vis {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+.weather-hum-vis p {
+  margin-right: 1rem;
+} 
+
+.weather-wind-press, .weather-hum-vis {
+    display: inline-block;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .weather-wind-press {
+    margin-right: 20px;
+  }
+  p {
+    display: block;
+    margin: 0;
+   
+  }
+
+footer {
+  margin: 0.6rem;
+  text-align: center;
+  font-size: 0.7rem;
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: #0059b1;
+}
+.des{
+  color: red;
+  font-family:"Roboto";
+   text-decoration: underline overline;
+}
